@@ -1,0 +1,37 @@
+1. We have an output that is number that gives us the differnce between two DNA strands (strings of data)
+
+2. We want our code to print out to the screen
+
+3. Most Trivial Case - Computes two characters both with the same letter - doesn't have to do any work  
+
+Min Work Case 
+
+4. 	a. Computes two characters that are different.
+	b. Test two characters that are different 
+	c. Etc.
+
+Most Complex Case
+
+5. The strands are two different lenghts
+
+6. 	Pseudocode 
+
+	a. Import two sentences 
+	b. Read through sentence #1 and store it's characters in an ordered database
+	c. Read through sentence #2 and store it's characters in a different ordered database
+
+	d. Read through each position in the database. If the first data position #1 is different from the second database position #1 mark that.
+
+	e. Repeat this for every character in the database. 
+
+	f. Print out the total number of differences in the databased 
+
+7. 	Edge Cases
+
+	a. Strands are different lenghts
+	b. Strands contain no characters
+	
+
+	
+
+

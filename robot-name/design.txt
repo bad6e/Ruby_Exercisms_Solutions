@@ -1,0 +1,34 @@
+1. We can create a random name for a robot. When we reboot we have created a new name.
+
+If ever the name is a duplicate - rename the robot. 
+
+2. We want it to print a new name to the screen.
+
+3.  Most Trivial - Robot has name 
+
+4.  a. Trivial +1 = Robot name sticks 
+
+	b. +2 = Creating two robots that have different names
+
+
+
+5. Test to see if upon reset the name is different (and  possibly the name never is repeated)
+
+6. Create a robot and give it a name. 
+   Save the name
+   Display the name on the screen
+
+   Reset robot -- give it a new name 
+   Check new name to make sure the new name is the same as the old name (possibly check used name database)
+   Display the name on the screen
+
+    
+
+
+
+
+
+
+
+
+
