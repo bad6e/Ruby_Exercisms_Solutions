@@ -1,28 +1,26 @@
 class Phrase
   def initialize(word)
     @word = word
-  end 
+  end
+
+  def punctuation
+    @word.gsub(/[:!&$.@S%^,&]/, " ")
+  end
+
+  def downcase
+    punctuation.downcase
+  end
+
+  def word_split
+    downcase.split
+  end
 
   def word_count
-    word_list = @word.split
-    puts word_list
     counts = {}
     counts.default = 0
-    
-    
-    word_list.each do |word|
-     
-      counts[word] = counts[word] + 1
-      puts counts[word]
-      # counter += 1 if counts.include?(word)  
-    
+    word_split.each do |word|
+      counts[word] += 1
     end
-
     counts
-
-  end 
+  end
 end
-
-
-# phrase = Phrase.new("Oh Oh hey hey Bret") 
-# phrase.word_count
