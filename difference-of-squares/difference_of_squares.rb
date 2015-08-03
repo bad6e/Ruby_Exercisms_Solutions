@@ -5,11 +5,11 @@ class Squares
   end
 
   def sum_of_squares
-    (1..@number).inject(0) {|result, element| result + (element ** 2)}
+    (1..@number).inject {|result, element| result + element**2}
   end
 
   def square_of_sums
-    (1..@number).inject {|result,x| result + x } ** 2
+    (1..@number).inject(:+)**2
   end
 
   def difference
