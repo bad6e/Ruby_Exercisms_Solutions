@@ -1,9 +1,13 @@
+require 'benchmark'
+require 'time'
+
 class Gigasecond
   VERSION = 2
-
   def self.from(time)
-    gigasecond = 1000000000
-    time_now = time
-    time_gigsecond = time_now + gigasecond
+    time_gigsecond = time + Giga::GIGA
   end
+end
+
+class Giga
+  GIGA = 1_000_000_000
 end
