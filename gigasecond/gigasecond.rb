@@ -1,4 +1,3 @@
-require 'benchmark'
 require 'time'
 
 class Gigasecond
