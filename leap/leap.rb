@@ -1,7 +1,7 @@
 class Year
   def self.leap?(year)
-    return false if !divisible?(year, 4)
-    return true if !divisible?(year, 100)
+    return false unless divisible?(year, 4)
+    return true unless divisible?(year, 100)
     divisible?(year, 400)
   end
 
